@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { GiHamburgerMenu } from 'react-icons/gi';
 import { MdOutlineRestaurantMenu } from 'react-icons/md';
-import { images } from '../../constants'
+// import { images } from '../../constants'
 import './Navbar.css';
 
 export function Navbar() {
@@ -11,7 +11,8 @@ export function Navbar() {
   return (
     <nav className='app__navbar'>
       <div className='app__navbar-logo'>
-        <img src={images.gericht} alt="app__logo"/>
+        {/* <img src={images.pnga} alt="app__logo"/> */}
+        <a href="#home">GASTRONOMY</a>
       </div>
       <ul className='app__navbar-links'>
         <li className='p__opensans'><a href="#home">Home</a></li>

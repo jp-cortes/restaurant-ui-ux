@@ -6,11 +6,11 @@ import './Header.css';
 
 export function Header() {
   return (
-    <div className='app__header app__wraper section__padding' id='home'>
+    <div className='app__header app__wrapper section__padding' id='home'>
       <div className='app__wrapper_info'>
       <SubHeading title='Chase the new flavour'/>
       <h1 className='app__header-h1'>The Key To Fine Dinning</h1>
-      <p className='p__opensans'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corrupti perspiciatis deserunt iste? Provident unde facilis similique doloremque harum dolore. Quidem, id natus distinctio laborum molestias repudiandae iste ea sunt.</p>
+      <p className='p__opensans' style={{ margin: '2rem 0'}}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsa corrupti perspiciatis deserunt iste? Provident unde facilis similique doloremque harum dolore. Quidem, id natus distinctio laborum molestias repudiandae iste ea sunt.</p>
       <button type='button' className='custom__button'>Explore Menu</button>
       </div>
 

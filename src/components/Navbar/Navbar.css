@@ -17,6 +17,16 @@
 .app__navbar-logo img {
     width: 150px;
 }
+.app__navbar-logo a {
+    font-family: var(--font-base);
+    color: var(--color-white);
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: capitalize;
+    text-decoration: none;
+    line-height: 50px;
+    font-size: 30px;
+}
 
 .app__navbar-links {
     flex: 1;
